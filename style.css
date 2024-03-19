@@ -1,0 +1,67 @@
+.title1{
+    color: rgb(222, 71, 71);
+}
+
+body{
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: azure;
+
+}
+
+.button1{
+ background-color: rgb(66, 24, 249);
+ border: none;
+ /* top,right,botom,left */
+/*  padding: 3em 7em 3em 7em; */
+
+padding: 0.7em 1.5em;
+border-radius: 25em;
+color: white;
+font-weight: lighter;
+
+}
+
+.button2{
+    border: 1px solid rgb(0,89,255 );
+    padding:  0.7em 1.5em;
+    border-radius: 20px;
+    background-color: white#ffff;
+    color: rgb(0, 89, 255);
+    font-family:'arial'
+}
+
+.button2:hover{
+    background-color: rgba(0, 145, 255, 0.268);
+    color: white;
+    
+
+}
+
+.table1{
+   /* border:none */
+   border-collapse: collapse;
+}
+
+.table1 td{
+    padding: 1em
+}
+
+.table1 tr:nth-last-child(even) {
+    background-color: rgba(122, 122, 122, 0.436);
+}
+
+.card1{
+    background-color: rgb(255, 255, 255);
+}
+
+.card1 .card-content{
+  padding: 1em 1em 0.1em 1em;
+}
+
+.card1 .card-content .card-title{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(60, 60, 255);
+
+}
