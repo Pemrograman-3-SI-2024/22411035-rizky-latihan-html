@@ -5,7 +5,7 @@
 body{
     font-family:Helvetica, sans-serif;
     font-size: 20px;
-    background-color: azure;
+    background-color: rgb(191, 191, 191);
 
 }
 
@@ -52,6 +52,8 @@ font-weight: lighter;
 }
 
 .card1{
+    padding: 1em;
+    width: 300px;
     background-color: rgb(255, 255, 255);
 }
 
